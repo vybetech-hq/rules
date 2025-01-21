@@ -62,7 +62,7 @@ doSomethingElse();
 
 ### 1.3 Obvious Comments
 
-Do not clutter your code with redundant comments that describe the obvious. If a comment doesn't add value beyond what the code itself conveys, it is unnecessary.
+Do not clutter your code with redundant comments that describe the obvious. If a comment doesn't add value beyond what the code itself conveys, it is unnecessary. The fact that ChatGPT struggles to generate good examples of meaningful comments reflects how rarely comments are genuinely needed in well-written, self-documenting code.
 
 ```javascript
 // Bad
