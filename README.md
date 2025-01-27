@@ -108,7 +108,7 @@ const handleRequest = (data) => {
 };
 ```
 
-### no default values
+### 1.7 No default values
 
 Do not add default values, trust that it exists in the parent implementation or check for it:
 
