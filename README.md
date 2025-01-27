@@ -108,6 +108,19 @@ const handleRequest = (data) => {
 };
 ```
 
+### no default values
+
+Do not add default values, trust that it exists in the parent implementation or check for it:
+
+```
+return {
+  width: device.viewport_width || 1024,
+}
+```
+
+Later on you'll spend hours debugging where did this `1024` value come from
+
+
 ## 2. Pull Requests (PRs)
 
 ### 2.1 Single Change Per PR
