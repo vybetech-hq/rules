@@ -195,4 +195,18 @@ const sumArray = (numbers) => {
 };
 ```
 
+### 3.7 camelCase
+
+Always follow the same capitalization, then you don't have to think if something is upperCASED, it's always camelCased
+
+```javascript
+// bad
+baseURL
+myID
+
+// good
+baseUrl
+myId
+``` 
+
 By following these guidelines, you’ll ensure a cleaner codebase, easier reviews, and better collaboration across the team.
