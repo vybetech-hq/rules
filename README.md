@@ -209,7 +209,7 @@ baseUrl
 myId
 ```
 
-### 3.8 file extensions in imports
+### 3.8 File extensions in imports
 
 Always include file extensions when importing files.
 
