@@ -207,6 +207,21 @@ myID
 // good
 baseUrl
 myId
-``` 
+```
+
+### 3.8 file extensions in imports
+
+Always include file extensions when importing files.
+
+```javascript
+// bad
+const beer = require("../lib/beer")
+const pint = require("./pint")
+
+// good
+const beer = require("../lib/beer.js")
+const pint = require("./pint.json")
+```
+
 
 By following these guidelines, you’ll ensure a cleaner codebase, easier reviews, and better collaboration across the team.
