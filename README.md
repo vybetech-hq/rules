@@ -223,5 +223,17 @@ const beer = require("../lib/beer.js")
 const pint = require("./pint.json")
 ```
 
+### 3.9 file_names_in_snake_case
+
+```
+// bad
+someFileName.js
+```
+
+```
+// good
+some_file_name.js
+```
+reason: some file systems are case-sensitive and allow `someFile.js` and `SomeFile.js` to co-exist
 
 By following these guidelines, you’ll ensure a cleaner codebase, easier reviews, and better collaboration across the team.
