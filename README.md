@@ -247,7 +247,7 @@ const numbers = input
     .replace("something", "");
 switch (numbers.length) {
   case 3:
-...
+  ...
 
 // good
 if (!something) return null;
@@ -259,6 +259,7 @@ const numbers = input
 
 switch (numbers.length) {
   case 3:
+  ...
 ```
 
 By following these guidelines, you’ll ensure a cleaner codebase, easier reviews, and better collaboration across the team.
