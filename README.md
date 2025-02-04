@@ -236,4 +236,29 @@ some_file_name.js
 ```
 reason: some file systems are case-sensitive and allow `someFile.js` and `SomeFile.js` to co-exist
 
+### 3.10 empty lines between logical blocks
+
+```
+// bad
+if (!something) return null;
+const numbers = input
+    .toLowerCase()
+    .replace(/\s+/g, "")
+    .replace("something", "");
+switch (numbers.length) {
+  case 3:
+...
+
+// good
+if (!something) return null;
+
+const numbers = input
+    .toLowerCase()
+    .replace(/\s+/g, "")
+    .replace("something", "");
+
+switch (numbers.length) {
+  case 3:
+```
+
 By following these guidelines, you’ll ensure a cleaner codebase, easier reviews, and better collaboration across the team.
