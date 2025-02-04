@@ -238,7 +238,7 @@ reason: some file systems are case-sensitive and allow `someFile.js` and `SomeFi
 
 ### 3.10 empty lines between logical blocks
 
-```
+```javascript
 // bad
 if (!something) return null;
 const numbers = input
