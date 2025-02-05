@@ -262,4 +262,29 @@ switch (numbers.length) {
   ...
 ```
 
+### 3.11 ternary
+
+```javascript
+// bad unreadable
+Array.isArray(something) ? () => { return what } : bad
+
+// good
+if (Array.isArray(else)) {
+  ...
+```
+
+however
+
+```javascript
+const something = parent.id ? parent.id : null
+```
+
+is better than
+
+```javascript
+let something;
+if (parent.id) {
+  something = parent.id
+```
+
 By following these guidelines, you’ll ensure a cleaner codebase, easier reviews, and better collaboration across the team.
