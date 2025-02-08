@@ -287,6 +287,10 @@ if (parent.id) {
   something = parent.id
 ```
 
+### 3.12 copy/pasta
+
+Don't, write a function and re-use.
+
 ### 4.1 vscode settings
 
 ```json
