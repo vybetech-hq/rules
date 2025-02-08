@@ -287,4 +287,20 @@ if (parent.id) {
   something = parent.id
 ```
 
+### 4.1 vscode settings
+
+```json
+{
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "files.trimTrailingWhitespace": true,
+    "auto-close-tag.enableAutoCloseSelfClosingTag": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+}
+```
+
 By following these guidelines, you’ll ensure a cleaner codebase, easier reviews, and better collaboration across the team.
