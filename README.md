@@ -24,6 +24,7 @@ const myFunction = () => {
 
 Avoid wrapping large blocks of code in a single `try/catch`. Generated code often nests everything inside a `try` block and then uses a `finally` block to rethrow errors unnecessarily. This approach adds complexity without any benefit. Instead:
 
+- Do not use try/catch, it hides errors.
 - Only use `try/catch` where you expect specific, manageable errors.
 - Keep the `try` block as minimal as possible. Include only the code that might throw an error.
 - Avoid rethrowing errors unnecessarily. Let the error propagate naturally unless you need custom handling.
