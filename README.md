@@ -308,4 +308,19 @@ Don't, write a function and re-use.
 }
 ```
 
+## 5. Environment variables
+
+### 5.1 Trust they exist
+
+Trust that `process.env.SOMETHING` is there, do not check for it - the check needs to be done when the app boots in `docker-entrypoint.sh` or such
+
+### 5.2 check for value "yes"
+
+```javascript
+if (process.env.DEBUG == 'yes')
+```
+
+Leaving out explicit checking for the value might cause issues.
+
 By following these guidelines, you’ll ensure a cleaner codebase, easier reviews, and better collaboration across the team.
+
